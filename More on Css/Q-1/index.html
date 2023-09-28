@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Navigation bar</title>
+</head>
+<!-- Q-1 Create a navigation bar similar to the below-mentioned image.The navigation bar must contain 5 navigation links that are properlu placed within the navigation bar using the CSS box model. The navigation items must change their text color on hover. -->
+<style>
+    .container{
+        margin:1%;
+    }
+    a{
+        padding:15px;
+        text-decoration: none;
+    }
+    /* css box model apply in whole nag tag */
+    nav{
+        background-color: rgb(70, 245, 1);
+        width:100%;
+        overflow: hidden;
+        border:2px solid red;
+        padding:2px;
+        margin:2px;
+    }
+    li{
+        display:inline;
+        font-size:30px;
+       }
+    li a:hover{
+  color:rgb(255, 34, 0);
+  text-decoration: underline rgb(245, 245, 6);
+    }
+</style>
+<body>
+<div class="container">
+    <nav>
+        <ul>
+            <li><a href="#">Home </a></li> 
+             <li><a href="#"> About Us</a></li>
+             <li><a href="#"> Contact </a></li>
+             <li><a href="#">Blog</a></li>
+             <li><a href="#">Login</a></li>
+        </ul>
+    </nav>
+</div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+
+    body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;}
+
+            /* style for header tag */
+    header{
+font-family:'Oswald', sans-serif;
+text-align: center;
+font-size:20px;
+text-transform: uppercase;
+
+    }
+/* style for class image */
+    .image{
+    text-align: center;
+    margin-bottom:30px;
+    }
+    /* style for img tag */
+    img{
+        width: 800px;;
+        height:400px;
+    }
+    /* style for class content for paragraph */
+    .content{
+        font-size:20px;
+        text-align:justify;
+        margin:5%;
+    }

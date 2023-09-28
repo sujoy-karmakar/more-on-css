@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<he lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-3</title>
+</head>
+<style>
+    .container{
+        margin:1%;
+    }
+    a{
+        margin:5px;
+        padding:5px;
+        text-decoration: none;/*  text-decoration none */
+    }
+    /* css box model apply in whole nag tag */
+    nav{
+        background-color: rgb(1, 188, 245);
+        width:100%;
+        overflow: hidden;
+        border:2px solid red;
+        padding:2px;
+        margin:2px;
+    }
+
+    li{
+        display:inline-block; /* display inline block*/
+        font-size:20px;
+        color: brown;
+ 
+    }
+    /* this is li tag child 1*/
+    li:nth-child(1) a {
+        border:2px dotted red; /* border dotted*/
+    }
+    /* this is li tag child 2*/
+    li:nth-child(2) a {
+        border:2px solid black; /* border solid*/
+    }
+    /* this is li tag child 3*/
+    li:nth-child(3) a {
+        border:2px dashed rgb(64, 255, 0); /* border dashed*/
+    }
+    /* this is li tag child 4*/
+    li:nth-child(4) a {
+        border:2px double rgb(21, 5, 239); /* border double*/
+    }
+    /* this is li tag child 5 */
+    li:nth-child(5) a {
+       border:2px dotted red; /*  border dotted   */
+        color:rgb(244, 209, 9);
+    }
+    /* hover on a tag  chenge background-color or color*/
+    li a:hover{
+  color:rgb(255, 34, 0);
+  background-color:blue;
+    }
+</style>
+</head>
+<!-- Q-3 Create a navigation bar similar to question 1. for each navigation item,use a different border style. -->
+<body>
+<div class="container">
+    <nav>
+        <ul>
+            <li><a href="#">Home </a></li> 
+             <li><a href="#"> About Us</a></li>
+             <li><a href="#"> Contact </a></li>
+             <li><a href="#">Blog</a></li>
+             <li><a href="#">Login</a></li>
+        </ul>
+    </nav>
+</div>
+</body>
+</html>
